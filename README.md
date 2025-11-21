@@ -1,5 +1,5 @@
 # Ex. No: 12 – Packet Tracer: Use Ping and Traceroute to Test Network Connectivity
-# Date: ______________________
+# Date: 21/11/2025
 ________________________________________<br>
 # Objective
 To test and restore IPv4 and IPv6 network connectivity using diagnostic commands (ping and tracert), identify faults, and verify proper routing between end devices in a dual-stack (IPv4 + IPv6) topology.<br>
@@ -15,8 +15,9 @@ ________________________________________<br>
 • 4 PCs (PC1–PC4)<br>
 • Copper straight-through and serial DCE/DTE cables<br>
 ________________________________________<br>
-# Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1 ↔ R2 ↔ R3 with PCs PC1–PC4 connected.)<br>
+# Network Topology Diagram:
+<img width="1919" height="1056" alt="506504508-bc2f5902-2b8f-4f68-868c-158978cb12f0" src="https://github.com/user-attachments/assets/1540fe16-927f-49b1-9fbe-de2f7f5f9fa5" />
+
 ________________________________________<br>
 Addressing Table<br>
 Device	Interface	IPv4 Address / Subnet Mask	IPv6 Address / Prefix	Default Gateway<br>
@@ -117,10 +118,41 @@ tracert	Trace route hops<br>
 show ip interface brief	Verify IPv4 interface status<br>
 show ipv6 interface brief	Verify IPv6 interface status<br>
 ________________________________________
-# Output (Attach Screenshots)
+# Output:
 • Command outputs (ipconfig, ipv6config, ping, tracert) for PCs.<br>
+• PC-1 and PC-3<br>
+<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/2cc0de88-aaed-4c4d-8851-f336100d7c51" /><br>
+<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/0030d48d-e25c-4e09-a487-f295b6fd38fc" /><br>
+
+• PC-2 and PC-4<br>
+<img width="1919" height="1199" alt="506528501-4bebf9fa-38e0-4764-954c-63c50aad2b8d" src="https://github.com/user-attachments/assets/948c3799-9795-4a5f-bbf1-ffc3f331cec9" /><br>
+<img width="1919" height="1199" alt="506528501-4bebf9fa-38e0-4764-954c-63c50aad2b8d" src="https://github.com/user-attachments/assets/46bdf192-9b08-4813-a022-0dc6b483fef9" /><br>
+
 • Router interface and routing tables.<br>
+• R1<br>
+<img width="1911" height="1055" alt="506504956-c3dfe0ca-c58c-4b10-a4d2-33977c566b8a" src="https://github.com/user-attachments/assets/6240ae73-df4c-415b-8c31-f00754d0ca2e" />
+
+• R2<br>
+<img width="1919" height="1043" alt="506505060-f67e5e25-8093-41fc-ae7b-4b1641925fd9" src="https://github.com/user-attachments/assets/d1e4b409-c12e-4162-bde1-0abf46191183" />
+
+•R3<br>
+<img width="1919" height="1058" alt="506505218-ada5eaf1-f379-44a4-9832-29eb2ef7a7b5" src="https://github.com/user-attachments/assets/55ddbca6-1a0e-444b-915f-b737f220713c" />
+
 • Successful ping results after fixes.<br>
+• PC-1 and PC-3<br>
+<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/7cd24588-a195-4db6-b76f-b49730bb7bbf" /><br>
+
+<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/264dc192-435d-45be-a260-c7bc058a4152" />
+
+•PC-2 and PC-4:
+<img width="1919" height="1199" alt="506527284-6a8d7f59-530e-456d-935c-00babc79b3b5" src="https://github.com/user-attachments/assets/d404ba9a-3081-4be4-899f-d815d180f6dd" /><br>
+
+<img width="1919" height="1199" alt="506527284-6a8d7f59-530e-456d-935c-00babc79b3b5" src="https://github.com/user-attachments/assets/57651dd6-3af5-441a-a910-ff5cb5c740b8" />
+
+• Activity Result<br>
+<img width="1888" height="986" alt="image" src="https://github.com/user-attachments/assets/a5c98656-ebd6-4764-b284-04f313653b41" />
+
+
 ________________________________________<br>
 # Result
 IPv4 and IPv6 connectivity issues were diagnosed and resolved using ping and tracert commands. Routers and PCs achieved full dual-stack communication after correcting configuration errors, confirming network restoration and routing accuracy.<br>
