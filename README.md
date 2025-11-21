@@ -121,12 +121,12 @@ ________________________________________
 # Output:
 • Command outputs (ipconfig, ipv6config, ping, tracert) for PCs.<br>
 • PC-1 and PC-3<br>
-<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/2cc0de88-aaed-4c4d-8851-f336100d7c51" /><br>
-<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/0030d48d-e25c-4e09-a487-f295b6fd38fc" /><br>
+<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/2cc0de88-aaed-4c4d-8851-f336100d7c51" />
+<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/0030d48d-e25c-4e09-a487-f295b6fd38fc" />
 
 • PC-2 and PC-4<br>
-<img width="1919" height="1199" alt="506528501-4bebf9fa-38e0-4764-954c-63c50aad2b8d" src="https://github.com/user-attachments/assets/948c3799-9795-4a5f-bbf1-ffc3f331cec9" /><br>
-<img width="1919" height="1199" alt="506528501-4bebf9fa-38e0-4764-954c-63c50aad2b8d" src="https://github.com/user-attachments/assets/46bdf192-9b08-4813-a022-0dc6b483fef9" /><br>
+<img width="1919" height="1199" alt="506528501-4bebf9fa-38e0-4764-954c-63c50aad2b8d" src="https://github.com/user-attachments/assets/948c3799-9795-4a5f-bbf1-ffc3f331cec9" />
+<img width="1919" height="1199" alt="506528501-4bebf9fa-38e0-4764-954c-63c50aad2b8d" src="https://github.com/user-attachments/assets/46bdf192-9b08-4813-a022-0dc6b483fef9" />
 
 • Router interface and routing tables.<br>
 • R1<br>
@@ -140,7 +140,7 @@ ________________________________________
 
 • Successful ping results after fixes.<br>
 • PC-1 and PC-3<br>
-<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/7cd24588-a195-4db6-b76f-b49730bb7bbf" /><br>
+<img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/7cd24588-a195-4db6-b76f-b49730bb7bbf" />
 
 <img width="1915" height="1199" alt="506504670-83dba5a6-4583-406a-bc4e-1011c3ec96ff" src="https://github.com/user-attachments/assets/264dc192-435d-45be-a260-c7bc058a4152" />
 
